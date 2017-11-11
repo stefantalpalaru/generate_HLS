@@ -123,7 +123,7 @@ def convert_to_mp4(in_name, out_name, height=None):
         '-vbr', '3',
         '-c:v', 'libx264',
         '-crf', '25',
-        '-threads', '4',
+        #'-threads', '4',
         '-movflags', 'faststart',
         '-profile:v', 'baseline',
         '-ar', '44100',
