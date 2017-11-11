@@ -26,6 +26,7 @@ if the bitrate reduction from the video alone is not enough for your needs.
 - [ffmpeg][1] (tested with 3.4)
 - MP4Box from [gpac][2] (tested with 0.7.1)
 - [mediainfo][3] (tested with 17.10)
+- lxml
 
 ## license
 
