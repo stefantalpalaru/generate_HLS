@@ -34,7 +34,7 @@ details.
 
 ## homepage
 
-https://github.com/stefantalpalaru/generate\_HLS
+https://github.com/stefantalpalaru/generate_HLS
 
 ## similar projects
 
