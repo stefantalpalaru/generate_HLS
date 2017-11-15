@@ -11,7 +11,7 @@ import traceback
 
 try:
     # for mypy
-    from typing import *
+    from typing import * # NOQA (for flake8)
 except:
     pass
 
