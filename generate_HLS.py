@@ -153,7 +153,7 @@ def generate_ts_and_m3u8(source_name, ts_name, m3u8_obj):
     cmd = [
         'ffmpeg', '-y', '-i', source_name,
         '-hls_time', '10',
-        '-hls_list_size', '10',
+        '-hls_list_size', '0',
         '-hls_flags', 'single_file',
         '-hls_segment_filename', ts_name,
         '-c', 'copy', tmpf.name,
