@@ -126,6 +126,7 @@ def convert_to_mp4(in_name, out_name, height=None):
         #'-threads', '4',
         '-movflags', 'faststart',
         '-profile:v', 'baseline',
+        '-pix_fmt', 'yuv420p',
         '-ar', '44100',
         out_name,
     ]
