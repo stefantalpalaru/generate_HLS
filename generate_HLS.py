@@ -137,7 +137,7 @@ def convert_to_mp4(in_name, out_name, height=None):
         data['output'] += subprocess.check_output(cmd, stderr=subprocess.STDOUT)
     except:
         data['error'] = True
-        pprint(traceback.format_exc(), data['output'])
+        pprint([traceback.format_exc(), data['output']])
     return data
 
 def generate_ts_and_m3u8(source_name, ts_name, m3u8_obj):
